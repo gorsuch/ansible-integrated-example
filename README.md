@@ -41,3 +41,11 @@ ac4bfb69e710: Download complete
 e497c7c1bfbb: Download complete 
 root@f80f042e7ae8:/# 
 ```
+
+Also see that `go` has been installed via another playbook:
+
+```sh
+$ vagrant ssh
+vagrant@ansible-integrated-example:~$ which go
+/usr/bin/go
+```
