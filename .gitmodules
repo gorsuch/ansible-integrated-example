@@ -1,3 +1,6 @@
 [submodule "roles/docker"]
 	path = roles/docker
 	url = git@github.com:gorsuch/ansible-docker-role.git
+[submodule "roles/golang"]
+	path = roles/golang
+	url = https://github.com/gorsuch/ansible-golang-role
